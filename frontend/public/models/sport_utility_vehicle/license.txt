@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sport Utility Vehicle
+* source:	https://sketchfab.com/3d-models/sport-utility-vehicle-34c720ef1e96463eb1af506fc5cec5b7
+* author:	manojkmpr (https://sketchfab.com/manojkmpr)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sport Utility Vehicle" (https://sketchfab.com/3d-models/sport-utility-vehicle-34c720ef1e96463eb1af506fc5cec5b7) by manojkmpr (https://sketchfab.com/manojkmpr) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

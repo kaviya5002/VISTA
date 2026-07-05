@@ -1,0 +1,57 @@
+{
+  "vehicle": {
+    "vehicle_id": 6,
+    "vehicle_name": "Toyota Corolla",
+    "manufacturer": "Toyota",
+    "model": "Corolla",
+    "variant": "Standard",
+    "year": 2026,
+    "vin": "JTDBL40E299012345",
+    "registration_number": "N/A",
+    "owner": "Workshop Vehicle",
+    "fleet": "Demo Fleet",
+    "vehicle_type": "Internal Combustion",
+    "odometer": 0,
+    "vehicle_age": 0
+  },
+  "obd": {
+    "engine_rpm": 820,
+    "vehicle_speed": 0,
+    "engine_load": 25.1,
+    "coolant_temperature": 82,
+    "intake_air_temperature": 30,
+    "ambient_air_temperature": 28,
+    "battery_voltage": 14.2,
+    "control_module_voltage": 14.2,
+    "fuel_level": 65.0,
+    "fuel_rate": 0,
+    "fuel_pressure": 0,
+    "throttle_position": 18.5,
+    "accelerator_position": 12.0,
+    "maf": 5.2,
+    "map": 88,
+    "timing_advance": 10,
+    "oil_temperature": 90,
+    "oil_pressure": 0,
+    "engine_runtime": 210,
+    "distance_since_dtc_clear": 0,
+    "distance_with_mil": 0
+  },
+  "diagnostics": {
+    "mil_status": false,
+    "dtc_codes": [],
+    "freeze_frame": {},
+    "pending_codes": [],
+    "permanent_codes": []
+  },
+  "ai": {
+    "health_score": 93,
+    "failure_probability": 4,
+    "remaining_useful_life": 0,
+    "confidence": 97,
+    "risk": "Low",
+    "priority": "None",
+    "status": "Healthy",
+    "recommendation": "All systems nominal. Continue routine maintenance schedule."
+  }
+}

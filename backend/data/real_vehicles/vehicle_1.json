@@ -1,0 +1,73 @@
+{
+  "vehicle": {
+    "vehicle_id": 1,
+    "vehicle_name": "Renault Kwid",
+    "manufacturer": "Renault",
+    "model": "Kwid",
+    "variant": "Standard",
+    "year": 2026,
+    "vin": "MEEBBA006G7387812",
+    "registration_number": "N/A",
+    "owner": "Workshop Vehicle",
+    "fleet": "Demo Fleet",
+    "vehicle_type": "Internal Combustion",
+    "odometer": 0,
+    "vehicle_age": 0
+  },
+  "obd": {
+    "engine_rpm": 1468,
+    "vehicle_speed": 0,
+    "engine_load": 38.04,
+    "coolant_temperature": 25,
+    "intake_air_temperature": 26,
+    "ambient_air_temperature": 26,
+    "battery_voltage": 14.56,
+    "control_module_voltage": 14.56,
+    "fuel_level": 33.3,
+    "fuel_rate": 0,
+    "fuel_pressure": 0,
+    "throttle_position": 20,
+    "accelerator_position": 15.29,
+    "maf": 0,
+    "map": 60,
+    "timing_advance": -8,
+    "oil_temperature": 100,
+    "oil_pressure": 0,
+    "engine_runtime": 12,
+    "distance_since_dtc_clear": 0,
+    "distance_with_mil": 0
+  },
+  "diagnostics": {
+    "mil_status": true,
+    "dtc_codes": [
+      "P160A",
+      "P0302",
+      "P0226",
+      "P0225",
+      "P2120",
+      "P0657",
+      "P0141",
+      "P061A",
+      "P0335",
+      "P060A"
+    ],
+    "freeze_frame": {
+      "dtc_triggered": "P0302",
+      "engine_rpm": 1468,
+      "coolant_temp": 25,
+      "throttle_position": 20
+    },
+    "pending_codes": [],
+    "permanent_codes": []
+  },
+  "ai": {
+    "health_score": 45,
+    "failure_probability": 85,
+    "remaining_useful_life": 0,
+    "confidence": 95,
+    "risk": "High",
+    "priority": "Critical",
+    "status": "Faulty",
+    "recommendation": "Inspect ignition system for cylinder 2, test APP/TP sensor wiring for shorts, and check ECM voltage supply."
+  }
+}

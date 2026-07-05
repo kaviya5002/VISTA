@@ -1,0 +1,65 @@
+{
+  "vehicle": {
+    "vehicle_id": 5,
+    "vehicle_name": "Maruti Suzuki Ertiga",
+    "manufacturer": "Maruti Suzuki",
+    "model": "Ertiga",
+    "variant": "Spark Ignition (Petrol)",
+    "year": 2017,
+    "vin": "MA3FJEB1S00291847",
+    "registration_number": "TN 04 DH 7741",
+    "owner": "Workshop Vehicle",
+    "fleet": "AutoCare Workshop Fleet",
+    "vehicle_type": "Internal Combustion",
+    "odometer": 94800,
+    "vehicle_age": 8
+  },
+  "obd": {
+    "engine_rpm": 1020,
+    "vehicle_speed": 0,
+    "engine_load": 61.8,
+    "coolant_temperature": 87,
+    "intake_air_temperature": 46,
+    "ambient_air_temperature": 35,
+    "battery_voltage": 11.7,
+    "control_module_voltage": 11.7,
+    "fuel_level": 22.0,
+    "fuel_rate": 0,
+    "fuel_pressure": 0,
+    "throttle_position": 19.6,
+    "accelerator_position": 16.2,
+    "maf": 3.91,
+    "map": 88,
+    "timing_advance": 4,
+    "oil_temperature": 96,
+    "oil_pressure": 0,
+    "engine_runtime": 210,
+    "distance_since_dtc_clear": 420,
+    "distance_with_mil": 420
+  },
+  "diagnostics": {
+    "mil_status": true,
+    "dtc_codes": [
+      "P0128",
+      "P0562"
+    ],
+    "freeze_frame": {
+      "dtc_triggered": "P0128",
+      "engine_rpm": 1020,
+      "coolant_temp": 99,
+      "throttle_position": 19
+    },
+    "pending_codes": ["P0562"],
+    "permanent_codes": []
+  },
+  "ai": {
+    "health_score": 54,
+    "failure_probability": 48,
+    "remaining_useful_life": 9,
+    "confidence": 87,
+    "risk": "Medium",
+    "priority": "High",
+    "status": "Warning",
+    "recommendation": "Coolant thermostat not reaching operating temperature (P0128) and low system voltage (P0562). Inspect thermostat and charging system. Schedule within 5 days."
+  }
+}

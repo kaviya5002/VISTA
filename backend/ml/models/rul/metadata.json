@@ -1,0 +1,8 @@
+{
+  "version": null,
+  "algorithm": null,
+  "score": -1,
+  "trained_on": null,
+  "dataset": null,
+  "note": "Run train_rul_automl.py to populate this file."
+}

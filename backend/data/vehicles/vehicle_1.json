@@ -1,0 +1,65 @@
+{
+  "vehicle": {
+    "vehicle_id": 1,
+    "vehicle_name": "Renault Kwid",
+    "manufacturer": "Renault",
+    "model": "Kwid",
+    "variant": "Standard",
+    "year": 2019,
+    "vin": "MEEBBA006G7387812",
+    "registration_number": "TN 09 BX 4421",
+    "owner": "Workshop Vehicle",
+    "fleet": "AutoCare Workshop Fleet",
+    "vehicle_type": "Internal Combustion",
+    "odometer": 61240,
+    "vehicle_age": 6
+  },
+  "obd": {
+    "engine_rpm": 1320,
+    "vehicle_speed": 0,
+    "engine_load": 58.6,
+    "coolant_temperature": 88,
+    "intake_air_temperature": 44,
+    "ambient_air_temperature": 34,
+    "battery_voltage": 11.6,
+    "control_module_voltage": 11.6,
+    "fuel_level": 24.0,
+    "fuel_rate": 0,
+    "fuel_pressure": 0,
+    "throttle_position": 18,
+    "accelerator_position": 14.2,
+    "maf": 2.8,
+    "map": 72,
+    "timing_advance": -2,
+    "oil_temperature": 96,
+    "oil_pressure": 0,
+    "engine_runtime": 45,
+    "distance_since_dtc_clear": 180,
+    "distance_with_mil": 180
+  },
+  "diagnostics": {
+    "mil_status": true,
+    "dtc_codes": [
+      "P0302",
+      "P0141"
+    ],
+    "freeze_frame": {
+      "dtc_triggered": "P0302",
+      "engine_rpm": 1320,
+      "coolant_temp": 88,
+      "throttle_position": 18
+    },
+    "pending_codes": ["P0302"],
+    "permanent_codes": []
+  },
+  "ai": {
+    "health_score": 58,
+    "failure_probability": 42,
+    "remaining_useful_life": 12,
+    "confidence": 88,
+    "risk": "Medium",
+    "priority": "High",
+    "status": "Warning",
+    "recommendation": "Cylinder 2 misfire detected (P0302) and oxygen sensor slow response (P0141). Schedule inspection within 5 days. Check spark plugs and O2 sensor."
+  }
+}

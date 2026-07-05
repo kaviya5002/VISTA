@@ -1,0 +1,57 @@
+{
+  "vehicle": {
+    "vehicle_id": 2,
+    "vehicle_name": "Kia Carnival",
+    "manufacturer": "Kia",
+    "model": "Carnival",
+    "variant": "Compression Ignition (Diesel)",
+    "year": 2021,
+    "vin": "MZBET813MLN151135",
+    "registration_number": "TN 07 CK 8812",
+    "owner": "Workshop Vehicle",
+    "fleet": "AutoCare Workshop Fleet",
+    "vehicle_type": "Diesel SUV",
+    "odometer": 38500,
+    "vehicle_age": 4
+  },
+  "obd": {
+    "engine_rpm": 777,
+    "vehicle_speed": 0,
+    "engine_load": 42.35,
+    "coolant_temperature": 76,
+    "intake_air_temperature": 38,
+    "ambient_air_temperature": 29,
+    "battery_voltage": 14.3,
+    "control_module_voltage": 14.3,
+    "fuel_level": 68.0,
+    "fuel_rate": 0,
+    "fuel_pressure": 0,
+    "throttle_position": 14.51,
+    "accelerator_position": 14.51,
+    "maf": 4.87,
+    "map": 94,
+    "timing_advance": 0,
+    "oil_temperature": 82,
+    "oil_pressure": 0,
+    "engine_runtime": 389,
+    "distance_since_dtc_clear": 12400,
+    "distance_with_mil": 0
+  },
+  "diagnostics": {
+    "mil_status": false,
+    "dtc_codes": [],
+    "freeze_frame": {},
+    "pending_codes": [],
+    "permanent_codes": []
+  },
+  "ai": {
+    "health_score": 94,
+    "failure_probability": 6,
+    "remaining_useful_life": 28,
+    "confidence": 97,
+    "risk": "Low",
+    "priority": "None",
+    "status": "Healthy",
+    "recommendation": "All systems nominal. Continue scheduled maintenance at 40,000 km."
+  }
+}

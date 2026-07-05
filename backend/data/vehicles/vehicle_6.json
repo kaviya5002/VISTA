@@ -1,0 +1,57 @@
+{
+  "vehicle": {
+    "vehicle_id": 6,
+    "vehicle_name": "Maruti Suzuki Swift",
+    "manufacturer": "Maruti Suzuki",
+    "model": "Swift",
+    "variant": "Spark Ignition (Petrol)",
+    "year": 2022,
+    "vin": "MA3FJEB1S00412983",
+    "registration_number": "TN 09 EF 3318",
+    "owner": "Workshop Vehicle",
+    "fleet": "AutoCare Workshop Fleet",
+    "vehicle_type": "Internal Combustion",
+    "odometer": 21600,
+    "vehicle_age": 3
+  },
+  "obd": {
+    "engine_rpm": 811,
+    "vehicle_speed": 0,
+    "engine_load": 22.35,
+    "coolant_temperature": 74,
+    "intake_air_temperature": 38,
+    "ambient_air_temperature": 38,
+    "battery_voltage": 14.1,
+    "control_module_voltage": 14.1,
+    "fuel_level": 71.0,
+    "fuel_rate": 0,
+    "fuel_pressure": 0,
+    "throttle_position": 14.51,
+    "accelerator_position": 13.73,
+    "maf": 2.27,
+    "map": 95,
+    "timing_advance": 10,
+    "oil_temperature": 79,
+    "oil_pressure": 0,
+    "engine_runtime": 1682,
+    "distance_since_dtc_clear": 21600,
+    "distance_with_mil": 0
+  },
+  "diagnostics": {
+    "mil_status": false,
+    "dtc_codes": [],
+    "freeze_frame": {},
+    "pending_codes": [],
+    "permanent_codes": []
+  },
+  "ai": {
+    "health_score": 93,
+    "failure_probability": 7,
+    "remaining_useful_life": 27,
+    "confidence": 96,
+    "risk": "Low",
+    "priority": "None",
+    "status": "Healthy",
+    "recommendation": "Vehicle in excellent condition. All emission monitors complete. Routine service at 25,000 km."
+  }
+}

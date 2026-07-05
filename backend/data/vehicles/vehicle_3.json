@@ -1,0 +1,68 @@
+{
+  "vehicle": {
+    "vehicle_id": 3,
+    "vehicle_name": "Volkswagen Polo",
+    "manufacturer": "Volkswagen",
+    "model": "Polo",
+    "variant": "Compression Ignition (Diesel)",
+    "year": 2018,
+    "vin": "WVWK11163CA551276",
+    "registration_number": "TN 22 AH 5530",
+    "owner": "Workshop Vehicle",
+    "fleet": "AutoCare Workshop Fleet",
+    "vehicle_type": "Diesel",
+    "odometer": 87300,
+    "vehicle_age": 7
+  },
+  "obd": {
+    "engine_rpm": 650,
+    "vehicle_speed": 0,
+    "engine_load": 78.9,
+    "coolant_temperature": 116,
+    "intake_air_temperature": 52,
+    "ambient_air_temperature": 35,
+    "battery_voltage": 10.2,
+    "control_module_voltage": 10.2,
+    "fuel_level": 9.0,
+    "fuel_rate": 0,
+    "fuel_pressure": 18000,
+    "throttle_position": 24.8,
+    "accelerator_position": 18.3,
+    "maf": 1.92,
+    "map": 102,
+    "timing_advance": -12,
+    "oil_temperature": 126,
+    "oil_pressure": 0,
+    "engine_runtime": 8,
+    "distance_since_dtc_clear": 0,
+    "distance_with_mil": 520
+  },
+  "diagnostics": {
+    "mil_status": true,
+    "dtc_codes": [
+      "P0217",
+      "P0016",
+      "P0087",
+      "U0155",
+      "P0606"
+    ],
+    "freeze_frame": {
+      "dtc_triggered": "P0217",
+      "engine_rpm": 650,
+      "coolant_temp": 112,
+      "throttle_position": 24
+    },
+    "pending_codes": ["P0016", "P0087"],
+    "permanent_codes": ["P0606"]
+  },
+  "ai": {
+    "health_score": 22,
+    "failure_probability": 94,
+    "remaining_useful_life": 2,
+    "confidence": 96,
+    "risk": "Critical",
+    "priority": "Immediate",
+    "status": "Critical",
+    "recommendation": "IMMEDIATE ACTION: Engine overheating (P0217) with ECM fault (P0606), cam/crank correlation failure (P0016) and low fuel rail pressure (P0087). Do not operate. Tow to workshop immediately."
+  }
+}
