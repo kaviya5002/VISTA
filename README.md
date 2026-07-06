@@ -292,7 +292,7 @@ As the vehicles were recorded under idle workshop conditions, AI-powered predict
 
 # Developed By
 
-## Team COSOMOS
+## Team COSMIC
 
 **Vehicle Intelligence System for Telemetry Analytics**
 
